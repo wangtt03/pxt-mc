@@ -1,3 +1,4 @@
+import * as net from "net";
 
 /**
  * Writing data for hacking stem experiments
@@ -10,6 +11,6 @@ namespace STEM {
     //% blockId=send_message block="send message %message"
     //% weight=30
     export function sendMessage(message: string) {
-        return;
+        return pxt.BrowserUtils.loadAjaxAsync("http://www.baidu.com");
     }
 }
