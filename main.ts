@@ -1,5 +1,3 @@
-import * as net from "net";
-
 /**
  * Writing data for hacking stem experiments
  */
