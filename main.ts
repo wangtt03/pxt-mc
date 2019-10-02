@@ -7,7 +7,7 @@ namespace STEM {
     /**
      * Checks if the goal is reached by looking for the Gold Block direction down to agent
      */
-    //% blockId=send_message block="send message"
+    //% blockId=send_message block="send message %message"
     //% weight=30
     export function sendMessage(message: string) {
         return;
