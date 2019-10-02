@@ -11,6 +11,6 @@ namespace STEM {
     //% blockId=send_message block="send message %message"
     //% weight=30
     export function sendMessage(message: string) {
-        return pxt.BrowserUtils.loadAjaxAsync("http://www.baidu.com");
+        BrowserUtils.loadAjaxAsync("http://www.baidu.com");
     }
 }
