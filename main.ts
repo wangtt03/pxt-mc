@@ -6,9 +6,9 @@ namespace STEM {
     /**
      * Checks if the goal is reached by looking for the Gold Block direction down to agent
      */
-    //% blockId=send_message block="send message %message"
+    //% blockId=send_message2 block="send message2"
     //% weight=30
-    export function sendMessage(): string {
+    export function sendMessage2(): string {
         // let resp = net.request("GET", "http://www.baidu.com");
         return "test";
     }
