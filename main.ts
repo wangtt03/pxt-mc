@@ -8,7 +8,7 @@ namespace STEM {
      */
     //% blockId=send_message block="send message %message"
     //% weight=30
-    export function sendMessage(message: string): string {
+    export function sendMessage(): string {
         // let resp = net.request("GET", "http://www.baidu.com");
         return "test";
     }
