@@ -10,6 +10,6 @@ namespace STEM {
     //% weight=30
     export function sendMessage2(): string {
         let resp = net.request("GET", "http://www.baidu.com");
-        return "test";
+        return resp.text();
     }
 }
