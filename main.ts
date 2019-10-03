@@ -9,6 +9,6 @@ namespace STEM {
     //% blockId=send_message block="send message %message"
     //% weight=30
     export function sendMessage(message: string) {
-        // BrowserUtils.loadAjaxAsync("http://www.baidu.com");
+        let resp = net.request("GET", "http://www.baidu.com");
     }
 }
