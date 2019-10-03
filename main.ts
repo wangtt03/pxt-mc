@@ -9,7 +9,7 @@ namespace STEM {
     //% blockId=send_message2 block="send message2"
     //% weight=30
     export function sendMessage2(): string {
-        // let resp = net.request("GET", "http://www.baidu.com");
+        let resp = net.request("GET", "http://www.baidu.com");
         return "test";
     }
 }
